@@ -8,11 +8,11 @@ docker_users:
 kubernetes_allow_pods_on_master: false
 kubernetes_version: '1.15'
 kubernetes_packages:
-  - name: kubelet=1.15.0-00
+  - name: kubelet
     state: present
-  - name: kubectl=1.15.0-00
+  - name: kubectl
     state: present
-  - name: kubeadm=1.15.0-00
+  - name: kubeadm
     state: present
   - name: kubernetes-cni
     state: present
