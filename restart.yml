@@ -1,0 +1,7 @@
+---
+- hosts: all
+  become: true
+  tasks:
+         - name: Unconditionally reboot all of this cluster's nodes with all defaults
+           reboot:
+
